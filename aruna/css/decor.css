@@ -1,0 +1,103 @@
+body {
+    background-color: #F7ECDE;
+}
+
+.form-control {
+    font-size: 0.8em;
+    margin: 1%;
+}
+
+.row {
+    text-align: center;
+    margin: 0%;
+}
+
+.photo-gallery {
+    margin-top: 3%;
+}
+
+#heading {
+    font-family: Giaza;
+    src: url('font\Giaza Stencil.ttf');
+    color: #423525;
+}
+
+.img-fluid {
+    margin: 0 auto;
+    transition: 0.7s ease all;
+    box-shadow: 0px 4px 5px 2px rgb(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+.w-lg-50 {
+    font-size: 1em;
+    border-bottom: 1px solid #968380;
+    font-family: Giaza;
+    src: url('font\Giaza Stencil.ttf');
+    color: #423525;
+}
+
+.h1 {
+    font-size: 1.5em;
+}
+
+.col {
+    margin-top: 2.5%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+}
+
+.mb-0 {
+    text-decoration: none;
+}
+
+.link-secondary {
+    text-decoration: none;
+    transition: 0.6s
+}
+
+.link-secondary:hover {
+    text-decoration: none;
+    color: #a46f68;
+}
+
+.container {
+    border-bottom: 1px solid #968380;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.description {
+    margin-top: 4%;
+    font-size: 1.8em;
+    font-family: Giaza;
+    src: url('font\Giaza Stencil.ttf');
+    text-align: center;
+    color: #423525;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid #968380;
+}
+
+.fading {
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.fadeNow {
+    opacity: 1;
+}
+
+#ctlg {
+    transition: all 0.3s ease;
+}
+
+.zoom-in {
+    transform: scale(1.5);
+}
